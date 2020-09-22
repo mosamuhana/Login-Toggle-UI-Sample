@@ -1,0 +1,25 @@
+name: login_toggle_sample
+description: Login Toggle Sample UI
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.9.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  font_awesome_flutter: ^8.8.1
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
